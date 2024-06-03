@@ -7,8 +7,9 @@ import Link from "next/link"
 
 const page = () => {
   const [username , setUsername] = useState('')
-  const [usernameMessage , setusernameMessage] =  useState('')
-  const [isCheckingUsername , setisCheckingUsername] = useState(false)
+  const [usernameMessage , setUsernameMessage] =  useState('')
+  const [isCheckingUsername , setIsCheckingUsername] = useState(false)
+  const [isSubmitting , setIsSubmitting] = useState(false)
   return (
     <div>page</div>
   )
